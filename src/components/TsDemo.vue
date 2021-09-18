@@ -17,7 +17,7 @@ export default defineComponent({
   setup() {
     const state = ref<Course[]>([]);
     setTimeout(() => {
-      state.value.push({ id: 1, name: "全栈架构师" });
+      state.value.push({ id: 1, name: "全栈架构师~" });
     }, 600);
 
     fetch("/api/users")
